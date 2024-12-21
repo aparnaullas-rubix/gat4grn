@@ -1,0 +1,1209 @@
+Run ID,Num Neurons,Embedding Size,Learning Rate,Num Heads,ROC-AUC,Precision,Recall,F1,#Edges in GT,#Predicted edges,Top 20% overlap,#Overlapping edges,Model
+8b04af3e-3d11-4a78-915a-aa524e530b47,64,4,0.005,4,0.6557789760914761,0.041353383458646614,0.6346153846153846,0.07764705882352942,260,3990,117,[0 0 0 ... 0 1 0],"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=4)
+  (gat2): GATConv(256, 4, heads=1)
+  (decoder): Linear(in_features=4, out_features=12100, bias=True)
+)"
+ca65e8b0-4462-4e2d-bf3a-ae7aad4f1a5c,64,4,0.005,4,0.6738662941787941,0.04397559735638028,0.6653846153846154,0.08249880782069623,260,3934,127,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=4)
+  (gat2): GATConv(256, 4, heads=1)
+  (decoder): Linear(in_features=4, out_features=12100, bias=True)
+)"
+d89d47dd-e807-41ee-824e-e3753ec9b0e6,39,4,1.4663232141641776e-05,3,0.49748570686070687,0.02127659574468085,0.49615384615384617,0.040803416099952555,260,6063,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 39, heads=3)
+  (gat2): GATConv(117, 4, heads=1)
+  (decoder): Linear(in_features=4, out_features=12100, bias=True)
+)"
+cef7ccae-a1cf-449d-8017-b24a856e0343,32,7,0.005637976178026419,3,0.7245452182952183,0.054778554778554776,0.7230769230769231,0.10184182015167931,260,3432,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 32, heads=3)
+  (gat2): GATConv(96, 7, heads=1)
+  (decoder): Linear(in_features=7, out_features=12100, bias=True)
+)"
+406627d7-156e-4107-b45a-24283ee92f30,103,7,3.0804200411586705e-05,6,0.5041190228690229,0.021836972828804802,0.5038461538461538,0.04185972200031954,260,5999,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 103, heads=6)
+  (gat2): GATConv(618, 7, heads=1)
+  (decoder): Linear(in_features=7, out_features=12100, bias=True)
+)"
+b4f373e9-74d1-40d1-80a8-f3781b65381b,114,5,0.00018025849026632345,7,0.5272739085239084,0.023870856946591103,0.5346153846153846,0.04570113430872925,260,5823,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 114, heads=7)
+  (gat2): GATConv(798, 5, heads=1)
+  (decoder): Linear(in_features=5, out_features=12100, bias=True)
+)"
+fcfecfab-8c09-414f-858c-a183832637ac,120,4,4.7845613950498866e-05,8,0.5034628378378379,0.0217828418230563,0.5,0.04174694926140013,260,5968,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 120, heads=8)
+  (gat2): GATConv(960, 4, heads=1)
+  (decoder): Linear(in_features=4, out_features=12100, bias=True)
+)"
+5d38586a-3af9-494b-8b41-26c8cc35f6d8,106,8,0.0041953498987376886,8,0.7134745322245323,0.052451539338654506,0.7076923076923077,0.09766454352441614,260,3508,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 106, heads=8)
+  (gat2): GATConv(848, 8, heads=1)
+  (decoder): Linear(in_features=8, out_features=12100, bias=True)
+)"
+236b0006-7758-4acc-ae6c-d97a5a75b4d7,79,6,0.00012167505487541876,5,0.4829424376299376,0.02002692696061932,0.4576923076923077,0.03837471783295711,260,5942,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 79, heads=5)
+  (gat2): GATConv(395, 6, heads=1)
+  (decoder): Linear(in_features=6, out_features=12100, bias=True)
+)"
+234a61b3-8236-4a44-8e68-34ea24f2b359,41,4,0.004118762810599483,6,0.6553209459459459,0.040363028421304036,0.65,0.07600629637958174,260,4187,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 41, heads=6)
+  (gat2): GATConv(246, 4, heads=1)
+  (decoder): Linear(in_features=4, out_features=12100, bias=True)
+)"
+23a90e4d-e99a-4f88-aa1a-6a4cc3249005,67,7,3.1452356125174024e-05,7,0.5066138253638254,0.022045416873860434,0.5115384615384615,0.042269187986651836,260,6033,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 67, heads=7)
+  (gat2): GATConv(469, 7, heads=1)
+  (decoder): Linear(in_features=7, out_features=12100, bias=True)
+)"
+14ee947b-efe2-4ea4-882f-281958ffd312,127,5,0.0014521848260481251,8,0.6046939968814968,0.032212603180994566,0.6153846153846154,0.0612205854218481,260,4967,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 127, heads=8)
+  (gat2): GATConv(1016, 5, heads=1)
+  (decoder): Linear(in_features=5, out_features=12100, bias=True)
+)"
+506862da-dbe1-469c-becf-5664301515dc,57,8,0.0008317153169031521,2,0.5709102130977131,0.028477334366524602,0.5653846153846154,0.05422353375138325,260,5162,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 57, heads=2)
+  (gat2): GATConv(114, 8, heads=1)
+  (decoder): Linear(in_features=8, out_features=12100, bias=True)
+)"
+09fdb0eb-57a1-45a1-8fc8-76cb4192d167,98,2,0.008989346522050006,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 98, heads=4)
+  (gat2): GATConv(392, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+897dcfd9-a013-410e-9c11-b89aff49ddf6,94,2,0.009214338874263999,4,0.725051975051975,0.05497076023391813,0.7230769230769231,0.10217391304347827,260,3420,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 94, heads=4)
+  (gat2): GATConv(376, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+cdf7dc4d-5eb4-4304-a7e6-dbaf23b3b824,94,2,0.008544516970434412,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 94, heads=4)
+  (gat2): GATConv(376, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+f6010625-2df8-46a0-b037-3e13aa283185,90,2,0.0014126968133273984,4,0.5864182692307692,0.03015372487189594,0.5884615384615385,0.05736782902137233,260,5074,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 90, heads=4)
+  (gat2): GATConv(360, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+d86f100b-e907-4d33-8890-f27607502519,80,3,0.000553640529826267,4,0.5096088877338878,0.022320667916169705,0.5038461538461538,0.04274759340838636,260,5869,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 80, heads=4)
+  (gat2): GATConv(320, 3, heads=1)
+  (decoder): Linear(in_features=3, out_features=12100, bias=True)
+)"
+767668aa-7619-4d52-868b-f22cd49c8a3c,99,3,0.0020696804063926847,5,0.6394035862785862,0.03671891775821344,0.6576923076923077,0.06955460646735814,260,4657,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 99, heads=5)
+  (gat2): GATConv(495, 3, heads=1)
+  (decoder): Linear(in_features=3, out_features=12100, bias=True)
+)"
+fc4cb637-8024-4f07-b4a9-690a9df498f9,68,2,0.009850672269232988,2,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 68, heads=2)
+  (gat2): GATConv(136, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+6d735cfc-a2bc-4130-82d6-ee2f5621507b,88,3,0.0026312101212118614,3,0.6742463617463617,0.04407643312101911,0.6653846153846154,0.08267622461170848,260,3925,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 88, heads=3)
+  (gat2): GATConv(264, 3, heads=1)
+  (decoder): Linear(in_features=3, out_features=12100, bias=True)
+)"
+8438a10e-81ee-4042-9ce5-6b398e5f2a93,111,3,0.00037513987977879206,5,0.5313896829521829,0.024300052826201797,0.5307692307692308,0.04647247011281361,260,5679,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 111, heads=5)
+  (gat2): GATConv(555, 3, heads=1)
+  (decoder): Linear(in_features=3, out_features=12100, bias=True)
+)"
+e1b84a6d-bd95-41c7-9b48-d6c7373ce03b,69,2,0.0008505600422555927,4,0.5539728430353431,0.026508226691042046,0.5576923076923077,0.0506108202443281,260,5470,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 69, heads=4)
+  (gat2): GATConv(276, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+8020d7cf-a626-45c4-84f8-429413819595,58,2,0.009240681057917045,2,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 58, heads=2)
+  (gat2): GATConv(116, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+fb788da2-82a1-4075-a77e-88200db3d598,68,2,0.009225322898506891,2,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 68, heads=2)
+  (gat2): GATConv(136, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+6f927d95-cce5-4ce1-a845-2bef0fc0b67a,83,3,0.0038272818475027994,3,0.6730899168399168,0.043010752688172046,0.676923076923077,0.08088235294117647,260,4092,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 83, heads=3)
+  (gat2): GATConv(249, 3, heads=1)
+  (decoder): Linear(in_features=3, out_features=12100, bias=True)
+)"
+12a2a204-827a-4e03-8439-3714295aa04d,96,2,0.007026558161525016,3,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 96, heads=3)
+  (gat2): GATConv(288, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+3de91287-2ad3-4fbc-8674-2d2ba9dd2a53,75,4,0.003244363912812767,6,0.6897089397089398,0.0472630173564753,0.6807692307692308,0.08838951310861423,260,3745,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 75, heads=6)
+  (gat2): GATConv(450, 4, heads=1)
+  (decoder): Linear(in_features=4, out_features=12100, bias=True)
+)"
+b529f2dd-5bc3-4953-89ec-49c9903f755c,55,3,0.0019365214373004615,4,0.6052202442827443,0.0323960880195599,0.6115384615384616,0.06153250773993808,260,4908,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 55, heads=4)
+  (gat2): GATConv(220, 3, heads=1)
+  (decoder): Linear(in_features=3, out_features=12100, bias=True)
+)"
+50d34c86-ac30-4a67-b4dc-28dd42e90aec,85,2,0.0055165662835959875,2,0.7038006756756756,0.049945115257958285,0.7,0.0932377049180328,260,3644,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 85, heads=2)
+  (gat2): GATConv(170, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+c490a4f2-0bab-46c8-9aa6-9d0ff87e1bc5,106,3,0.0010970850050622213,5,0.5305678274428274,0.024194952132288946,0.5346153846153846,0.0462947543713572,260,5745,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 106, heads=5)
+  (gat2): GATConv(530, 3, heads=1)
+  (decoder): Linear(in_features=3, out_features=12100, bias=True)
+)"
+a131b21d-be59-42b6-bc3c-67addd3be2fa,51,4,1.2024436661009963e-05,3,0.4909790800415801,0.020738079686479425,0.48846153846153845,0.039786967418546364,260,6124,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 51, heads=3)
+  (gat2): GATConv(153, 4, heads=1)
+  (decoder): Linear(in_features=4, out_features=12100, bias=True)
+)"
+afa1eea7-f44b-43c5-8c9a-24e19fa8fb28,72,2,0.00549555333865537,4,0.7132406444906445,0.052783386212864145,0.7038461538461539,0.0982023074859136,260,3467,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 72, heads=4)
+  (gat2): GATConv(288, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+5e6b5dc5-b6dc-40c3-b0f1-b26451b21cf0,63,2,0.00908461812481394,2,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 63, heads=2)
+  (gat2): GATConv(126, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+284a6d38-232a-4519-9134-e78c0a9d02a9,47,2,0.006308393324612197,2,0.6963032744282744,0.04794701986754967,0.6961538461538461,0.08971499380421313,260,3775,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 47, heads=2)
+  (gat2): GATConv(94, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+bc2ba977-9c0b-47ee-9092-2c56c3beb199,60,3,0.009726137986237142,2,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 60, heads=2)
+  (gat2): GATConv(120, 3, heads=1)
+  (decoder): Linear(in_features=3, out_features=12100, bias=True)
+)"
+70bc60b9-2380-47d4-a3ff-6f49400fe98e,76,2,0.0027087310877700567,3,0.5823317307692308,0.030134158926728587,0.5615384615384615,0.05719882468168462,260,4845,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 76, heads=3)
+  (gat2): GATConv(228, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+c6a55f44-02c7-4ad8-9fae-4d25218341e1,38,6,0.005643679724268752,2,0.7255165020790021,0.0551481372836609,0.7230769230769231,0.10248023984736986,260,3409,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 38, heads=2)
+  (gat2): GATConv(76, 6, heads=1)
+  (decoder): Linear(in_features=6, out_features=12100, bias=True)
+)"
+873648f9-9553-48b7-828f-ef1f95284837,33,6,0.00508742181131079,3,0.725389812889813,0.05509964830011723,0.7230769230769231,0.10239651416122005,260,3412,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 33, heads=3)
+  (gat2): GATConv(99, 6, heads=1)
+  (decoder): Linear(in_features=6, out_features=12100, bias=True)
+)"
+78585116-d6fa-4924-8954-9015e51b3cbe,102,6,0.00021252729236410778,3,0.5076858108108108,0.022154055896387186,0.5,0.04242819843342036,260,5868,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 102, heads=3)
+  (gat2): GATConv(306, 6, heads=1)
+  (decoder): Linear(in_features=6, out_features=12100, bias=True)
+)"
+ea694c85-6899-40b9-9d7c-97ccec5c0fd5,113,5,6.141181478697452e-05,4,0.5169860966735966,0.022945841066306732,0.5230769230769231,0.04396314853725554,260,5927,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 113, heads=4)
+  (gat2): GATConv(452, 5, heads=1)
+  (decoder): Linear(in_features=5, out_features=12100, bias=True)
+)"
+ae1e7f87-0314-41a4-b5c2-a149e980d9d4,44,7,0.004277199730018864,5,0.7241651507276508,0.054635280441732055,0.7230769230769231,0.10159416373952986,260,3441,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 44, heads=5)
+  (gat2): GATConv(220, 7, heads=1)
+  (decoder): Linear(in_features=7, out_features=12100, bias=True)
+)"
+f01c2fa7-09b8-457f-beb1-2d571612be84,34,6,0.006510997313363252,6,0.7227066008316009,0.054534849810440364,0.7192307692307692,0.10138248847926268,260,3429,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 34, heads=6)
+  (gat2): GATConv(204, 6, heads=1)
+  (decoder): Linear(in_features=6, out_features=12100, bias=True)
+)"
+c8582869-80ad-4e73-83a1-88e8b43686cf,91,7,0.0069985186685629155,2,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 91, heads=2)
+  (gat2): GATConv(182, 7, heads=1)
+  (decoder): Linear(in_features=7, out_features=12100, bias=True)
+)"
+816f8722-28f5-4fe5-8496-9ceee45c9209,37,5,0.0030850554300024063,2,0.7200656185031185,0.05399129172714078,0.7153846153846154,0.10040485829959514,260,3445,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 37, heads=2)
+  (gat2): GATConv(74, 5, heads=1)
+  (decoder): Linear(in_features=5, out_features=12100, bias=True)
+)"
+7530a0d3-7461-4aa7-9686-6acb2506212f,50,4,0.009899090141701173,7,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 50, heads=7)
+  (gat2): GATConv(350, 4, heads=1)
+  (decoder): Linear(in_features=4, out_features=12100, bias=True)
+)"
+244b35df-f73e-4620-94f3-abfc2746be48,65,2,0.004429723777892451,2,0.7123992983367984,0.051675977653631286,0.7115384615384616,0.09635416666666667,260,3580,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 65, heads=2)
+  (gat2): GATConv(130, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+935bec40-7cf1-4e37-945e-e3097fa60895,40,6,0.0072621051102948414,3,0.7254320426195426,0.05511580181764878,0.7230769230769231,0.10242440751838736,260,3411,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 40, heads=3)
+  (gat2): GATConv(120, 6, heads=1)
+  (decoder): Linear(in_features=6, out_features=12100, bias=True)
+)"
+637bcb13-fc56-4903-9f3b-7c4584e198c4,57,4,0.0019510238729397488,2,0.6059511434511434,0.031730951928557856,0.6423076923076924,0.060474379866014845,260,5263,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 57, heads=2)
+  (gat2): GATConv(114, 4, heads=1)
+  (decoder): Linear(in_features=4, out_features=12100, bias=True)
+)"
+26ee7288-5d6c-4bbd-9f5f-e4dc250c8d88,118,3,0.0037541484055956258,3,0.646352001039501,0.03789380920907689,0.6615384615384615,0.07168160033340279,260,4539,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 118, heads=3)
+  (gat2): GATConv(354, 3, heads=1)
+  (decoder): Linear(in_features=3, out_features=12100, bias=True)
+)"
+61646d56-c4b1-49f8-9091-0c19c0b34750,95,7,0.002258831377653294,2,0.6452702702702703,0.03819209039548022,0.65,0.07214514407684099,260,4425,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 95, heads=2)
+  (gat2): GATConv(190, 7, heads=1)
+  (decoder): Linear(in_features=7, out_features=12100, bias=True)
+)"
+be191cc6-b394-405d-a703-65db91428ab3,84,2,2.191093711928275e-05,4,0.4992171257796258,0.021421454666223846,0.49615384615384617,0.041069723018147083,260,6022,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 84, heads=4)
+  (gat2): GATConv(336, 2, heads=1)
+  (decoder): Linear(in_features=2, out_features=12100, bias=True)
+)"
+1d030dfa-bf0d-4cb5-bb00-f8bb739da5d8,32,32,0.0007740924059274668,12,0.543204261954262,0.025327510917030567,0.5576923076923077,0.04845446950710108,260,5725,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 32, heads=12)
+  (gat2): GATConv(384, 32, heads=1)
+  (decoder): Linear(in_features=32, out_features=12100, bias=True)
+)"
+34dfb006-de0f-446e-a7e4-3c02184ffb2d,1024,16,0.000315213378719837,12,0.5171680093555093,0.023022847100175745,0.5038461538461538,0.04403361344537815,260,5690,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 1024, heads=12)
+  (gat2): GATConv(12288, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+c6431c03-b6d8-40c5-acab-6f29ffb82629,512,16,0.0005079542614466868,16,0.5188084719334719,0.0232387923147301,0.48846153846153845,0.04436681222707423,260,5465,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 512, heads=16)
+  (gat2): GATConv(8192, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+13f468f8-17d2-42c9-abe3-c6d809d5d47c,64,128,7.368054264029033e-05,16,0.5108075623700624,0.022452201368181022,0.49230769230769234,0.04294581446066096,260,5701,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=16)
+  (gat2): GATConv(1024, 128, heads=1)
+  (decoder): Linear(in_features=128, out_features=12100, bias=True)
+)"
+318b2b4f-34c6-4eda-88f7-cf5ef865202f,32,64,5.6287227143464944e-05,6,0.5154203482328482,0.0228240504173054,0.5153846153846153,0.04371228184635459,260,5871,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 32, heads=6)
+  (gat2): GATConv(192, 64, heads=1)
+  (decoder): Linear(in_features=64, out_features=12100, bias=True)
+)"
+cd51002b-8255-4421-bc46-b1370f0fa95c,64,16,2.550535649903136e-05,2,0.4901962058212058,0.02066929133858268,0.4846153846153846,0.039647577092511016,260,6096,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=2)
+  (gat2): GATConv(128, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+6879fc72-d74e-4e66-9423-5f410f925127,1024,32,0.0017227471041826566,4,0.6047102390852391,0.032525378081624194,0.6038461538461538,0.06172596815411834,260,4827,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 1024, heads=4)
+  (gat2): GATConv(4096, 32, heads=1)
+  (decoder): Linear(in_features=32, out_features=12100, bias=True)
+)"
+2814f274-36e4-46ed-95e5-d35e5aee5b0c,32,64,0.0003451118805332095,12,0.5095309251559252,0.022288261515601784,0.5192307692307693,0.0427418078201678,260,6057,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 32, heads=12)
+  (gat2): GATConv(384, 64, heads=1)
+  (decoder): Linear(in_features=64, out_features=12100, bias=True)
+)"
+e30108d4-c438-4aa7-a2e7-b83c72648539,1024,8,1.4018791996643203e-05,2,0.5143483627858627,0.02269715043074884,0.5269230769230769,0.04351969504447268,260,6036,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 1024, heads=2)
+  (gat2): GATConv(2048, 8, heads=1)
+  (decoder): Linear(in_features=8, out_features=12100, bias=True)
+)"
+3d9a0f27-7aa8-4c10-8a94-53dd7a01fe97,256,64,0.0008345054134492228,16,0.5690131237006236,0.02811320754716981,0.573076923076923,0.053597122302158275,260,5300,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 256, heads=16)
+  (gat2): GATConv(4096, 64, heads=1)
+  (decoder): Linear(in_features=64, out_features=12100, bias=True)
+)"
+7b0821aa-fc4b-4fdd-a249-9fad20c5e8d6,128,32,0.009128928743654514,4,0.7253053534303535,0.05506736965436438,0.7230769230769231,0.10234077299945564,260,3414,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=4)
+  (gat2): GATConv(512, 32, heads=1)
+  (decoder): Linear(in_features=32, out_features=12100, bias=True)
+)"
+f99a2f3a-fca9-4732-b878-aecdad538468,128,32,0.009865982553580482,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=4)
+  (gat2): GATConv(512, 32, heads=1)
+  (decoder): Linear(in_features=32, out_features=12100, bias=True)
+)"
+af16c45b-8635-4f4d-8907-14b6f3cac939,128,32,0.00764294910981997,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=4)
+  (gat2): GATConv(512, 32, heads=1)
+  (decoder): Linear(in_features=32, out_features=12100, bias=True)
+)"
+3ec5dd9c-9e95-403f-9d20-7d0a3940107b,128,32,0.008924997125810295,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=4)
+  (gat2): GATConv(512, 32, heads=1)
+  (decoder): Linear(in_features=32, out_features=12100, bias=True)
+)"
+da773130-01cc-4baf-a2f8-4ce2aca788a0,128,32,0.0038938202770884673,14,0.7115319646569647,0.05177265053460889,0.7076923076923077,0.09648662821185107,260,3554,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=14)
+  (gat2): GATConv(1792, 32, heads=1)
+  (decoder): Linear(in_features=32, out_features=12100, bias=True)
+)"
+747410d9-2d7e-4a7f-99ea-f14bdc382c45,128,128,0.002822847842127861,10,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=10)
+  (gat2): GATConv(1280, 128, heads=1)
+  (decoder): Linear(in_features=128, out_features=12100, bias=True)
+)"
+e4de4731-50e0-4508-8f6b-c15f5cf149a6,128,8,0.004440753313078936,8,0.72429183991684,0.054682955206515414,0.7230769230769231,0.10167658193618172,260,3438,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=8)
+  (gat2): GATConv(1024, 8, heads=1)
+  (decoder): Linear(in_features=8, out_features=12100, bias=True)
+)"
+3f7c5667-e700-4c4d-b234-45834ab30cf9,512,32,0.0019905169731968078,4,0.6842223232848232,0.045110887096774195,0.6884615384615385,0.0846736045411542,260,3968,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 512, heads=4)
+  (gat2): GATConv(2048, 32, heads=1)
+  (decoder): Linear(in_features=32, out_features=12100, bias=True)
+)"
+3cb4df14-fe90-4029-ada6-a2464dfb894a,128,16,2.2741781665918686e-05,12,0.48729859667359676,0.0204149377593361,0.47307692307692306,0.03914081145584725,260,6025,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=12)
+  (gat2): GATConv(1536, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+a5601f65-712d-4d87-b125-6f39385316b7,64,128,0.004182001729086492,14,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=14)
+  (gat2): GATConv(896, 128, heads=1)
+  (decoder): Linear(in_features=128, out_features=12100, bias=True)
+)"
+d9a4baec-1b1d-482a-b163-ae95878c1d60,64,16,0.0008158437455905973,2,0.5633088617463617,0.027517783601647323,0.5653846153846154,0.052481256694037845,260,5342,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=2)
+  (gat2): GATConv(128, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+c4267d76-a3c5-4a02-b5c4-e45b2e0fcce4,64,16,2.91685734182038e-05,8,0.5149623180873181,0.022742254449571522,0.5307692307692308,0.04361567635903919,260,6068,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=8)
+  (gat2): GATConv(512, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+1b55912a-41cd-4548-b649-3558bfce0618,32,128,0.0005837670636368756,4,0.7209102130977132,0.05430656934306569,0.7153846153846154,0.10094979647218454,260,3425,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 32, heads=4)
+  (gat2): GATConv(128, 128, heads=1)
+  (decoder): Linear(in_features=128, out_features=12100, bias=True)
+)"
+ab0bf169-4e06-4e6b-8b4e-3d818a70177f,32,64,0.00010853045223236429,8,0.4897219334719335,0.02059025394646534,0.46153846153846156,0.03942181340341656,260,5828,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 32, heads=8)
+  (gat2): GATConv(256, 64, heads=1)
+  (decoder): Linear(in_features=64, out_features=12100, bias=True)
+)"
+4d3070b7-9098-4dd2-b700-60cac9f9ceb1,64,16,0.002769324409534769,14,0.7255165020790021,0.0551481372836609,0.7230769230769231,0.10248023984736986,260,3409,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=14)
+  (gat2): GATConv(896, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+4767a260-f35a-467a-9335-1aec8bedc97d,32,128,8.08873687595963e-05,2,0.5387214137214137,0.024977856510186004,0.5423076923076923,0.04775613886536833,260,5645,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 32, heads=2)
+  (gat2): GATConv(64, 128, heads=1)
+  (decoder): Linear(in_features=128, out_features=12100, bias=True)
+)"
+d6cb3c0f-bee5-43f7-829d-ba4c0c897ef5,32,8,9.001158000148655e-05,10,0.5165897869022869,0.022876892692560897,0.5346153846153846,0.043876262626262624,260,6076,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 32, heads=10)
+  (gat2): GATConv(320, 8, heads=1)
+  (decoder): Linear(in_features=8, out_features=12100, bias=True)
+)"
+6aa3f773-6072-4af5-9d60-722262a3b684,128,16,0.005067066038602742,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=4)
+  (gat2): GATConv(512, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+5a805237-e896-432f-a527-3f81ae31f159,64,32,0.001836579239121146,6,0.6695361226611226,0.0431077694235589,0.6615384615384615,0.08094117647058824,260,3990,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=6)
+  (gat2): GATConv(384, 32, heads=1)
+  (decoder): Linear(in_features=32, out_features=12100, bias=True)
+)"
+11a187c9-e292-4537-8023-bba2c3a1d03d,32,32,2.6491977076820667e-05,4,0.4969367203742204,0.021231073074391045,0.49615384615384617,0.04071969696969697,260,6076,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 32, heads=4)
+  (gat2): GATConv(128, 32, heads=1)
+  (decoder): Linear(in_features=32, out_features=12100, bias=True)
+)"
+383ddd9c-fc9a-4386-93f4-6285a21fef63,64,16,0.006532389965049117,2,0.7255165020790021,0.0551481372836609,0.7230769230769231,0.10248023984736986,260,3409,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=2)
+  (gat2): GATConv(128, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+53ca8d26-cec4-498c-abb5-3bccf13ffead,32,32,0.003051286885888219,16,0.6679346413721413,0.04222276146566367,0.6692307692307692,0.07943391919653048,260,4121,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 32, heads=16)
+  (gat2): GATConv(512, 32, heads=1)
+  (decoder): Linear(in_features=32, out_features=12100, bias=True)
+)"
+491d83e1-32a6-42e9-b579-86c925d3c3d2,128,64,0.009215939316568089,2,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=2)
+  (gat2): GATConv(256, 64, heads=1)
+  (decoder): Linear(in_features=64, out_features=12100, bias=True)
+)"
+326d26a6-e4c9-4b7b-b369-b4acab8c2251,32,128,3.795774606342286e-05,2,0.5189773908523908,0.0230794592812397,0.5384615384615384,0.044261776794182736,260,6066,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 32, heads=2)
+  (gat2): GATConv(64, 128, heads=1)
+  (decoder): Linear(in_features=128, out_features=12100, bias=True)
+)"
+477a8c97-ec1a-49e4-9308-7b10c22455bf,64,16,0.007118191701625566,8,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=8)
+  (gat2): GATConv(512, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+1c7c7df4-8c4c-4917-a1a3-957b7a850e4d,64,32,9.551040634115278e-05,8,0.4859472453222453,0.02030708271421496,0.47307692307692306,0.03894253601393066,260,6057,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=8)
+  (gat2): GATConv(512, 32, heads=1)
+  (decoder): Linear(in_features=32, out_features=12100, bias=True)
+)"
+7d942826-37d5-41f8-8d0a-a6fc39f557ca,64,8,0.009982822883625063,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=4)
+  (gat2): GATConv(256, 8, heads=1)
+  (decoder): Linear(in_features=8, out_features=12100, bias=True)
+)"
+ce8d5b64-683d-4a71-82c8-a9135a1fbdf9,32,128,0.001403487826031255,2,0.7179963617463618,0.05323411562678878,0.7153846153846154,0.09909429941395845,260,3494,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 32, heads=2)
+  (gat2): GATConv(64, 128, heads=1)
+  (decoder): Linear(in_features=128, out_features=12100, bias=True)
+)"
+e54f5985-7366-4a71-a820-b64c70450eb3,64,64,0.00031446249590072267,8,0.5804866164241165,0.029272001520623456,0.5923076923076923,0.0557869951095816,260,5261,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=8)
+  (gat2): GATConv(512, 64, heads=1)
+  (decoder): Linear(in_features=64, out_features=12100, bias=True)
+)"
+38d67891-a28c-4d07-9641-06aab828b779,128,16,0.0006665006964309794,16,0.578154235966736,0.029382568989477865,0.5692307692307692,0.055880687181423444,260,5037,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=16)
+  (gat2): GATConv(2048, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+6fbeb3f7-7238-4378-a57a-47d45ac46f48,128,64,0.0024040263304705564,2,0.7195393711018712,0.0533675799086758,0.7192307692307692,0.09936238044633369,260,3504,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=2)
+  (gat2): GATConv(256, 64, heads=1)
+  (decoder): Linear(in_features=64, out_features=12100, bias=True)
+)"
+76fd16d3-4ca8-4f31-8bb9-dc88d91776bc,128,16,0.004582927172919843,2,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=2)
+  (gat2): GATConv(256, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+b26d453f-e0f2-4a90-bcc8-949f75e018ce,128,64,0.0007732625205658782,2,0.4875324844074844,0.02044180679195516,0.47692307692307695,0.03920328801770471,260,6066,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=2)
+  (gat2): GATConv(256, 64, heads=1)
+  (decoder): Linear(in_features=64, out_features=12100, bias=True)
+)"
+238d8696-86c8-47f9-8848-f07f23b4011a,64,8,0.00016207800652177852,2,0.5278034043659043,0.023903022024927438,0.5384615384615384,0.045774072257642635,260,5857,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=2)
+  (gat2): GATConv(128, 8, heads=1)
+  (decoder): Linear(in_features=8, out_features=12100, bias=True)
+)"
+9a34281c-d822-4cb8-ba0c-6a27740f167e,128,64,1.1027410878989254e-05,2,0.48854274948024956,0.02050764834425954,0.46923076923076923,0.03929779352552746,260,5949,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=2)
+  (gat2): GATConv(256, 64, heads=1)
+  (decoder): Linear(in_features=64, out_features=12100, bias=True)
+)"
+bb1c561c-344b-4ec7-80b9-016622c7c928,64,16,0.0015113597210185332,2,0.596439708939709,0.030908043770397388,0.6192307692307693,0.058877308465898705,260,5209,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=2)
+  (gat2): GATConv(128, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+6983a6eb-7b6d-45bc-b34e-c4cfaa60c865,128,64,0.0052939193792107195,4,0.7254320426195426,0.05511580181764878,0.7230769230769231,0.10242440751838736,260,3411,0,0,"GAT_VGAE(
+  (gat1): GATConv(110, 128, heads=4)
+  (gat2): GATConv(512, 64, heads=1)
+  (decoder): Linear(in_features=64, out_features=12100, bias=True)
+)"
+d9c95fab-cd39-462e-ad71-c816bb3d7266,64,16,0.005,4,0.6909141112266112,0.047302684028700505,0.6846153846153846,0.08849117573949788,260,3763,132,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+a666219b-235d-4f3f-a50c-8109fb4f04e0,64,16,0.005,4,0.7037422037422039,0.0488771466314399,0.7115384615384616,0.09147095179233622,260,3785,131,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+25bcc729-51e8-43d0-b3d9-e9bebf4f8d28,64,16,0.005,4,0.7123765592515593,0.0520656479909451,0.7076923076923077,0.09699525566684239,260,3534,127,[0 0 0 ... 0 1 0],"GAT_VGAE(
+  (gat1): GATConv(110, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+f2d6aa4a-8b03-412b-971a-e252c12a9e83,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,139,[0 0 0 ... 1 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+e6fc8830-5487-46c7-a991-84c92142a996,64,16,0.005,4,0.49652399137796416,0.010800152783656277,0.5780110497237569,0.021204106243476323,9050,484345,1759,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(758, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=828100, bias=True)
+)"
+de354c2e-be0a-421a-bb8d-9161c907b73a,64,16,0.005,4,0.5001275396202514,0.010932479135107446,0.7169060773480663,0.021536536262408486,9050,593461,1912,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(758, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=828100, bias=True)
+)"
+70afc223-715b-45e8-8aac-6f1fe69cde37,64,16,0.005,4,0.5200428794178794,0.023272090988626423,0.5115384615384615,0.04451882845188285,260,5715,25,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+ba6428d8-4f4b-457c-b1bb-a883891a3034,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,134,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+b7f41258-5170-4144-8008-a70658a49043,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,129,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+e3acc3ba-7b27-46aa-b945-e7e006ec5612,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,137,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+d876f637-7ec1-4820-be2c-9a1ea321f240,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,138,[1 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+ddcb9f48-d386-462c-ab34-cd92f7709632,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,136,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+c029b097-1b63-40df-9bcc-06baeaa30876,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,147,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+989252b0-2dd5-4196-a567-5cac66a1a1f4,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,130,[1 1 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+f6b811de-aa2d-4293-bfd7-de25dba124ba,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,140,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+47f18dc6-1d88-46c6-b867-6779f771bd2d,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,129,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+f6f48473-ae8d-4c42-90fe-99857897c48f,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,138,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+127edfd1-e0ee-4db5-b86b-03da9285c37d,64,16,0.005,4,0.7645182968204685,0.0071474755425615655,0.710195530726257,0.014152518786529362,2864,284576,2047,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=1562500, bias=True)
+)"
+da75b35c-aaa0-4913-8f78-5cb8cf6d04ee,64,16,0.005,4,0.7645182968204685,0.0071474755425615655,0.710195530726257,0.014152518786529362,2864,284576,2052,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=1562500, bias=True)
+)"
+59ca5c31-68d4-481b-8850-d075b6fa5684,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,133,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+303af8ff-8a90-49bf-93e0-65af1481f15a,64,16,0.05,4,0.27452572765072764,0.008285385500575374,0.27692307692307694,0.016089385474860336,260,8690,20,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+575dc9a7-8da4-4023-ab57-38d728ae879e,64,16,0.001,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,130,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+6e98c9bc-2716-465c-978e-9deaea82d1a5,64,16,0.0001,4,0.5821952962577963,0.029570931580981834,0.5884615384615385,0.05631210894368789,260,5174,85,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+6771c6fb-81ca-455e-bda5-1243b459c287,64,16,0.0005,4,0.7252631237006237,0.05505124450951684,0.7230769230769231,0.10231292517006803,260,3415,132,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+0b8103f4-3b33-4c81-8f5c-cea1f50261f9,64,16,0.0005,4,0.7254320426195426,0.05511580181764878,0.7230769230769231,0.10242440751838736,260,3411,128,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+e7e5b4d1-e44c-43d5-8867-63da84c45ed4,64,16,0.0005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,138,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+72fd7f04-f262-4d29-a9e7-59179da0ab42,64,16,0.0005,4,0.7254320426195426,0.05511580181764878,0.7230769230769231,0.10242440751838736,260,3411,145,[0 0 0 ... 1 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+60f960d7-a5cd-410c-9ebe-e0fe368517e2,64,16,0.0005,4,0.7253475831600831,0.05508350424846176,0.7230769230769231,0.1023686359923768,260,3413,133,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+eb86aa3c-9faf-403c-883e-88c5f3873cc2,64,16,0.0005,4,0.7254320426195426,0.05511580181764878,0.7230769230769231,0.10242440751838736,260,3411,132,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+5d2a2e5d-1a2f-4f71-9ead-08a424ad4cc6,64,16,0.0005,4,0.7254320426195426,0.05511580181764878,0.7230769230769231,0.10242440751838736,260,3411,141,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+addcfbd8-2c0e-4676-a307-89124843a4f7,64,16,0.0005,4,0.7253475831600831,0.05508350424846176,0.7230769230769231,0.1023686359923768,260,3413,126,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+e7ca0f80-8f19-4d95-9367-8109ce1f1dfd,64,16,0.0005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,131,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+51d61e69-b3b0-480e-9ab7-13f1a6973556,64,16,0.0005,4,0.7644157087806951,0.007139447377288555,0.710195530726257,0.014136780650542118,2864,284896,2053,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=1562500, bias=True)
+)"
+762b3bd9-a454-460d-876f-43f344eb13a2,64,16,0.0005,4,0.7644336616876554,0.007140851004072462,0.710195530726257,0.014139532297083113,2864,284840,2058,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=1562500, bias=True)
+)"
+34f964a4-c11a-4990-b437-1f5a52471052,64,16,0.0005,4,0.7255587318087318,0.05516431924882629,0.7230769230769231,0.1025081788440567,260,3408,137,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+6b262d3c-6cf4-423a-92a4-80be737c6f6f,64,16,0.0005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,139,[0 0 0 ... 0 1 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+ea73da3b-8c76-4ba6-b1d3-1588e77a8fea,64,16,0.0005,4,0.6841800935550936,0.04509952128999748,0.6884615384615385,0.08465358240718845,260,3969,130,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+d64f40f6-8457-4043-badf-e9321774109a,64,16,0.0005,4,0.6971283783783784,0.047869542346133616,0.7,0.0896110290497292,260,3802,134,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+a68c55ec-1115-42fd-b24a-c51853ccc7b6,64,16,0.0005,4,0.7003800675675675,0.04885906040268456,0.7,0.09134253450439146,260,3725,129,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+a3abeba3-632a-42f3-b4e6-ba29be35bb76,64,16,0.0005,4,0.7044990904365905,0.04980947196516059,0.7038461538461539,0.09303507880020336,260,3674,127,[0 0 0 ... 0 0 1],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+5e9fa417-1f11-4199-b78c-102aa2388488,64,16,0.0005,4,0.5987753378378379,0.03170087380613697,0.6,0.06022003474232773,260,4921,91,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+b94ee80e-d567-4c19-bd75-294a0792e845,64,16,0.0005,4,0.5717060810810811,0.028848093605003025,0.55,0.05482077822503354,260,4957,87,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+493759a8-3253-49f0-8fe6-7f4d441102b5,64,16,0.0005,4,0.5971738565488566,0.03127474267616785,0.6076923076923076,0.05948795180722891,260,5052,81,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+80d92150-16d2-4448-947d-c546c0151536,64,16,0.0005,4,0.6136986746361746,0.032982316709715874,0.6384615384615384,0.06272435291894955,260,5033,102,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+7c457892-2969-4b36-ace3-317eeb55d484,64,16,0.0005,4,0.5937954781704782,0.03078721745908028,0.6076923076923076,0.0586053412462908,260,5132,89,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+e10697e1-ed88-4003-9ade-61c8b3800e89,64,16,0.0005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,131,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+eb4a39ad-0c2c-47aa-bdb8-c8cae9a52eaa,64,16,0.0005,4,0.5800318347193347,0.029720986655883543,0.5653846153846154,0.05647330003841721,260,4946,84,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+3798435e-a313-41eb-ad8e-490e81f72f43,64,16,0.0005,4,0.5963682432432432,0.03133788670148654,0.6,0.05956471935853379,260,4978,109,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+dd3f384f-ea1f-451d-8430-c4b084f6bfde,64,16,0.0005,4,0.6602845634095633,0.0413022351797862,0.6538461538461539,0.07769652650822668,260,4116,119,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+f8b7888e-d2e5-44e7-a348-b6849aa0596f,64,16,0.0005,4,0.7253053534303535,0.05506736965436438,0.7230769230769231,0.10234077299945564,260,3414,129,[0 1 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+d7474cec-ea6c-4a16-8623-5c39871e8f89,64,16,0.0005,4,0.6957315488565489,0.048102618920363445,0.6923076923076923,0.08995502248875563,260,3742,123,[0 0 0 ... 0 1 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+6b300e7d-6ab8-4ee4-9b7c-9dfd4cb76139,64,16,0.0005,4,0.646403976091476,0.03917378917378917,0.6346153846153846,0.07379248658318426,260,4212,128,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+aca931cc-c706-4f93-a6de-06659ef0456b,64,16,0.0005,4,0.7206990644490645,0.05422740524781341,0.7153846153846154,0.1008130081300813,260,3430,129,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+2bd2ecfa-e61c-4282-a193-17a7983ea2fb,64,16,0.0005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,139,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+01f7e2a0-de94-4946-a171-df3afe61d9af,64,16,0.0005,4,0.5340014293139292,0.024673172528079542,0.5153846153846153,0.04709189949042347,260,5431,71,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+f1db1bef-8579-4336-b084-40728267e691,64,16,0.0005,4,0.6785115644490644,0.045240585774058574,0.6653846153846154,0.08472086190009795,260,3824,125,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+d49692f2-f3bc-41e8-b146-7c04ba3cce3d,64,16,0.0005,4,0.5,0.04389994895354773,0.6615384615384615,0.0823360459550024,260,3918,128,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+e082d0f2-7c11-4eb3-95f8-a42377f2eb05,64,16,0.0005,4,0.5,0.04241235596960039,0.6653846153846154,0.07974187600829684,260,4079,116,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+3d975f2d-7796-4c90-a1a1-6a872624dd72,64,16,0.0005,4,0.6854242463617464,0.045723092730542,0.6846153846153846,0.08572116542258608,260,3893,128,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+a0ec44e5-0727-41fb-88f4-c4266c7003d1,64,16,0.0005,4,0.5591411122661123,0.0486820871436256,0.6961538461538461,0.09100050276520864,260,3718,140,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+27b5f5a0-3e33-477b-a82e-c5d322f52067,64,16,0.0005,4,0.6447570166320167,0.03881439661256175,0.6346153846153846,0.07315451119485701,260,4251,122,[0 1 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+f4893ea4-7f94-47f6-b7e5-b6ec07493cde,64,16,0.0005,4,0.6838390072765073,0.04557157569515963,0.6807692307692308,0.08542471042471042,260,3884,134,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+0da38c33-bef3-46d4-bcd5-a4664661c88a,64,16,0.0005,4,0.6866294178794179,0.04576834569163897,0.6884615384615385,0.0858307360345241,260,3911,139,[1 1 0 ... 1 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+c556ddf3-ba81-40a6-b162-fad2c40c1436,64,16,0.0005,4,0.6983108108108108,0.0445307147750628,0.75,0.08406984263849968,260,4379,113,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+8a2d8a66-ba85-414b-880e-284954c63f87,64,16,5e-05,4,0.5014942827442828,0.021617021276595743,0.48846153846153845,0.041401792991035045,260,5875,57,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+3e97a7c7-0630-4c35-9584-ed1d70595351,64,16,0.005,4,0.7051325363825363,0.04596622889305816,0.7538461538461538,0.08664898320070734,260,4264,107,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+aab78152-b31f-43c5-ac3c-b5ffbf7ec0d4,64,16,0.005,4,0.6991716476091476,0.04550841431618867,0.7384615384615385,0.08573342263898191,260,4219,108,[0 0 1 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+77599898-68b8-4372-a6bf-5faac874cd23,64,16,0.005,4,0.7024915540540541,0.0455607476635514,0.75,0.08590308370044053,260,4280,118,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+b47eac79-ded9-45ca-a7d6-6940e77df014,64,16,0.005,4,0.7024493243243244,0.04555010511562719,0.75,0.08588416648315349,260,4281,104,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+e7072222-566e-488c-ac73-c84d84c25382,64,16,0.005,4,0.707097843035343,0.04620075046904315,0.7576923076923077,0.08709106984969053,260,4264,113,[0 0 1 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+58200f28-75c1-404a-a47a-592dc37e03a3,64,16,0.005,4,0.7016664501039501,0.04561486009875382,0.7461538461538462,0.08597385331265234,260,4253,103,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+144c0a13-c366-4654-ae10-bfb7912b9a12,64,16,0.005,4,0.6074324324324325,0.028549283038367138,0.85,0.05524309461317335,260,7741,56,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+f6983fdc-c69a-49cd-b9db-5687f3ba2492,64,16,0.005,4,0.7116911382536383,0.049277605779153764,0.7346153846153847,0.09235976789168278,260,3876,123,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+b5cde9ca-1745-4b07-ad6a-3d3ace902c25,64,16,0.005,4,0.6604794698544698,0.03494889548302011,0.8153846153846154,0.06702497628833386,260,6066,82,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+cb9d5933-752d-4dbd-bd1c-c30816ac68c1,64,16,0.005,4,0.6701663201663202,0.0384917517674784,0.7538461538461538,0.07324364723467862,260,5092,91,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+a87d8f85-8607-4344-89a1-0fc015c9c1df,64,16,0.005,4,0.7029983108108109,0.045688847235238986,0.75,0.08613074204946997,260,4268,117,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+4ecbd644-9da6-43e5-9530-ba26b3d11e8f,64,16,0.005,4,0.7236811330561331,0.05401543298085167,0.7269230769230769,0.1005586592178771,260,3499,134,[0 1 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+960f98f2-8590-4244-b646-b7ee48f03dc6,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,131,[1 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+5feeef4d-aed0-458a-9f2b-c3bcc5d5b758,64,16,0.005,4,0.7133543399168399,0.046722454672245464,0.7730769230769231,0.08811924594476107,260,4302,119,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+62101279-11e2-4ba2-ba9a-49fd436c79a0,64,16,0.005,4,0.6439091735966735,0.033705990322042384,0.7769230769230769,0.06460898768591077,260,5993,82,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+f46fbd75-d036-4542-b5de-17378224c57a,64,16,0.005,4,0.6420185810810811,0.031927188673793704,0.85,0.061542745753272066,260,6922,72,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+016ee939-02f8-4e0d-98a2-6a65348648b7,64,16,0.005,4,0.6166027806652807,0.029182879377431907,0.8653846153846154,0.056461731493099125,260,7710,73,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+8671425d-488e-4fa7-b9e7-63b0a7e0bf14,64,16,0.005,4,0.5282029625779626,0.02276364929752801,0.9846153846153847,0.04449852250999479,260,11246,56,[1 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+5f253df3-c2ec-4fa1-b23d-8cbb2bfc6593,64,16,0.005,4,0.5,0.021487603305785124,1.0,0.042071197411003236,260,12100,51,[1 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+70cbdd50-a324-45fc-9f88-62b072fc35e1,64,16,0.005,4,0.7023453742203742,0.045265588914549654,0.7538461538461538,0.08540305010893247,260,4330,111,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+682a5639-6ee4-4e92-8fd7-0b349f636bde,64,16,0.005,4,0.7022804054054054,0.045507584597432905,0.75,0.0858085808580858,260,4285,117,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+5ee099c9-78f7-444f-9048-ff5513e565f8,64,16,0.005,4,0.7037162162162163,0.045871559633027525,0.75,0.08645533141210375,260,4251,104,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+f2d15eb2-7272-41e8-ad99-8dbfb5a34723,64,16,0.005,4,0.7062110187110187,0.04597432905484247,0.7576923076923077,0.08668866886688668,260,4285,111,[0 1 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+76f09ed1-356a-472e-9a9f-32d475db7baf,64,16,0.005,4,0.7015624999999999,0.045327754532775454,0.75,0.08548882069267864,260,4302,115,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+02a40131-fa72-4d4a-b173-0b92778f5aa2,64,16,0.005,4,0.6653781185031185,0.03563025210084034,0.8153846153846154,0.06827697262479872,260,5950,84,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+32c02546-8198-419a-a53d-d2ee3004b17a,64,16,0.005,4,0.6840923856548857,0.03989779874213836,0.7807692307692308,0.07591623036649214,260,5088,103,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+89277bbb-9625-4190-9b33-85a52c84e5b7,64,16,0.005,4,0.682806003118503,0.03949661181026137,0.7846153846153846,0.07520737327188941,260,5165,84,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+4c5dad65-4cdb-44e5-931c-8907e5ab0c65,64,16,0.005,4,0.7014975311850312,0.045571999060371154,0.7461538461538462,0.08589771972548152,260,4257,111,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+e618c737-4d73-4d57-876c-d50db55c7ae3,64,16,0.005,4,0.6976936070686071,0.045133991537376586,0.7384615384615385,0.08506867523260966,260,4254,107,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+3eba1914-4a4c-4842-9ad3-2f0e71190bd3,64,16,0.005,4,0.7016664501039501,0.04561486009875382,0.7461538461538462,0.08597385331265234,260,4253,111,[1 1 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+d1a6c48d-d0d6-4138-bb6f-0e71062d2d54,64,16,0.005,4,0.6618762993762993,0.08553654743390357,0.4230769230769231,0.1423027166882277,260,1286,127,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+75d3b5d2-3a6f-4fbe-8a87-3f8970a5c44a,64,16,0.005,4,0.6618762993762993,0.08553654743390357,0.4230769230769231,0.1423027166882277,260,1286,121,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+3d0adfda-fd10-464e-8ea5-847edf01a7dc,64,16,0.005,4,0.6618762993762993,0.08553654743390357,0.4230769230769231,0.1423027166882277,260,1286,127,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+84a52f51-6723-42aa-b511-759f05ba8d14,64,16,0.005,4,0.6618762993762993,0.08553654743390357,0.4230769230769231,0.1423027166882277,260,1286,123,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+00fdb8c3-cdeb-47ad-b18a-cb4c43f43a93,64,16,0.005,4,0.6618762993762993,0.08553654743390357,0.4230769230769231,0.1423027166882277,260,1286,125,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+780855dc-e1ea-4cd7-9496-30648af344fe,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,127,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+bcb94250-4639-48a0-93f8-044da304ebc3,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,144,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+7de6a825-9b2e-4cd8-959e-aa033937341f,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,133,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+f952d297-adf1-44b5-8730-d2ad28e853fb,64,16,0.005,4,0.7254742723492724,0.05513196480938416,0.7230769230769231,0.10245231607629428,260,3410,146,[1 0 0 ... 0 0 1],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=12100, bias=True)
+)"
+c07cd362-ddea-451b-9952-ee71c53fbedd,64,16,0.005,4,0.7645182968204685,0.0071474755425615655,0.710195530726257,0.014152518786529362,2864,284576,2048,[0 0 0 ... 0 0 0],"GAT_VGAE(
+  (gat1): GATConv(1000, 64, heads=4)
+  (gat2): GATConv(256, 16, heads=1)
+  (mu_net): Linear(in_features=16, out_features=16, bias=True)
+  (log_var_net): Linear(in_features=16, out_features=16, bias=True)
+  (decoder): Linear(in_features=16, out_features=1562500, bias=True)
+)"

@@ -1,0 +1,1097 @@
+iteration,num_of_epochs,model,dropout_rate,relu_neg_slope,in_dim,hidden_dim,latent_dim,op_learning_rate,op_weight_decay,norm_penality,loss,eval_threshold,precision,recall,f1,aucroc,top_k,message,,,,,,,,,,,,,,,,,,
+1,100,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,910,256,16,0.0005,0.01,2,5.028232574,0.7,0.008569348862,0.1144751381,0.01594508488,0.4871982548,14,Without PCA,,,,,,,,,,,,,,,,,,
+2,100,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,326.2734985,0.7,0.02148760331,1,0.04207119741,0.5,143,Without PCA,,,,,,,,,,,,,,,,,,
+3,100,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,326.5252075,0.7,0.02148760331,1,0.04207119741,0.5,143,Without PCA,,,,,,,,,,,,,,,,,,
+4,100,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,6077147.5,0.7,0.02338227297,0.9923076923,0.04568797592,0.5410862786,144,Without PCA,,,,,,,,,,,,,,,,,,
+5,100,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,325.9194641,0.7,0.02148760331,1,0.04207119741,0.5,143,Hyperbolic Tangent instaed of sigmoid as decoder,,,,,,,,,,,,,,,,,,
+6,100,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,326.4056702,0.7,0.02148760331,1,0.04207119741,0.7217096544,176,Cosine Similarity instead of sigmoid as decoder,,,,,,,,,,,,,,,,,,
+7,100,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,325.9311523,0.7,0.07594936709,0.04615384615,0.05741626794,0.5415547037,149,Gaussian (RBF) Kernel instead of sigmoid as decoder,,,,,,,,,,,,,,,,,,
+8,100,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,326.258606,0.7,0.02148760331,1,0.04207119741,0.5091193477,88,Linear dot product instead of sigmoid as decoder,,,,,,,,,,,,,,,,,,
+9,1000,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,309.9052429,0.7,0.02148760331,1,0.04207119741,0.5154963617,102,Linear dot product instead of sigmoid as decoder,,,,,,,,,,,,,,,,,,
+10,100,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,326.1741028,0.7,0.07594936709,0.04615384615,0.05741626794,0.5168106809,145,Radial Basis Function (RBF) with Exponential Decay instead of sigmoid as decoder,,,,,,,,,,,,,,,,,,
+11,100,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,325.8339539,0.7,0.07594936709,0.04615384615,0.05741626794,0.5280113046,148,Fixing Gaussian (RBF) Kernel instead of sigmoid as decoder,,,,,,,,,,,,,,,,,,
+12,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.4945068,0.7,0.07594936709,0.04615384615,0.05741626794,0.5270101351,149,Fixing Gaussian (RBF) Kernel instead of sigmoid as decoder,,,,,,,,,,,,,,,,,,
+13,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 8)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(8, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,8,0.0005,0.01,2,323.9768982,0.7,0.07594936709,0.04615384615,0.05741626794,0.5302091996,150,Fixing Gaussian (RBF) Kernel instead of sigmoid as decoder,,,,,,,,,,,,,,,,,,
+14,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 8)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(8, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,8,0.0005,0.01,2,324.4261169,0.7,0.07594936709,0.04615384615,0.05741626794,0.5208212058,17,Removed upper trinagle and moved to all entries,,,,,,,,,,,,,,,,,,
+15,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 8)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(8, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,8,0.0005,0.01,2,324.2905273,0.7,0.07594936709,0.04615384615,0.05741626794,0.5179119023,14,Removed upper trinagle and moved to all entries,,,,,,,,,,,,,,,,,,
+16,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 8)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(8, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,8,0.0005,0.01,2,324.4359131,0.7,0.07594936709,0.04615384615,0.05741626794,0.5259933732,21,Added plot for A_ground_truth,,,,,,,,,,,,,,,,,,
+17,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 8)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(8, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,8,0.0005,0.01,2,324.0987854,0.7,0.07594936709,0.04615384615,0.05741626794,0.5290059771,20,Added plot for A_ground_truth,,,,,,,,,,,,,,,,,,
+18,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 8)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(8, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,8,0.0005,0.01,2,324.6222839,0.7,0.07594936709,0.04615384615,0.05741626794,0.5222420738,16,Added plot for A_ground_truth,,,,,,,,,,,,,,,,,,
+19,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 8)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(8, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,8,0.0005,0.01,3,324.2054138,0.7,0.07594936709,0.04615384615,0.05741626794,0.5259725832,18,norm_p from 2 to 3,,,,,,,,,,,,,,,,,,
+20,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.5998535,0.7,0.07594936709,0.04615384615,0.05741626794,0.5272180353,20,"norm_p from 3 to 2, lat_dim from 8 to 16",,,,,,,,,,,,,,,,,,
+21,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0001,0.01,2,331.3778992,0.7,0.07594936709,0.04615384615,0.05741626794,0.5420302755,18,lr to 0.0001,,,,,,,,,,,,,,,,,,
+22,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.005,0.01,2,327.5899963,0.7,0.07594936709,0.04615384615,0.05741626794,0.5329073545,16,lr to 0.005,,,,,,,,,,,,,,,,,,
+23,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.5,0.01,2,62343404,0.7,0.07692307692,0.04615384615,0.05769230769,0.5166917879,17,lr to 0.5,,,,,,,,,,,,,,,,,,
+24,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,1.00E-05,2,324.360321,0.7,0.07594936709,0.04615384615,0.05741626794,0.519143711,16,"weight decat to 1e-5, lr back to 0.0005",,,,,,,,,,,,,,,,,,
+25,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.05,2,324.1435547,0.7,0.07594936709,0.04615384615,0.05741626794,0.5252975572,16,weight decay to 5e-2,,,,,,,,,,,,,,,,,,
+26,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,5.00E-05,2,324.5284119,0.7,0.07594936709,0.04615384615,0.05741626794,0.5233998181,18,weight decay to 5e-5,,,,,,,,,,,,,,,,,,
+27,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,5.00E-09,2,324.65625,0.7,0.07594936709,0.04615384615,0.05741626794,0.5278547297,18,weight decay to 5e-9,,,,,,,,,,,,,,,,,,
+28,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 512)
+  (encoder2): GCNConv(512, 512)
+  (latent_layer): GCNConv(512, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 512)
+  (decoder2): Linear(in_features=512, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,512,16,0.0005,5.00E-09,2,321.7776489,0.7,0.07594936709,0.04615384615,0.05741626794,0.5210044179,17,"weight decay back to 1e-2, hidden dim to 512",,,,,,,,,,,,,,,,,,
+29,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 512)
+  (encoder2): GCNConv(512, 512)
+  (latent_layer): GCNConv(512, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 512)
+  (decoder2): Linear(in_features=512, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,512,16,0.0005,0.01,2,322.2309265,0.7,0.07594936709,0.04615384615,0.05741626794,0.5258549896,20,"weight decay back to 1e-2, hidden dim to 512",,,,,,,,,,,,,,,,,,
+30,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.4837646,0.7,0.07594936709,0.04615384615,0.05741626794,0.5295094854,22,hidden dim back to 256,,,,,,,,,,,,,,,,,,
+31,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.8130188,0,0.05681818182,0.07692307692,0.06535947712,0.5246706081,18,threshold to 0,,,,,,,,,,,,,,,,,,
+32,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.4411621,0,0.06285714286,0.08461538462,0.07213114754,0.5286356549,156,topk to 5000,,,,,,,,,,,,,,,,,,
+33,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.3441467,0,0.07194244604,0.07692307692,0.07434944238,0.5276468295,2,topk to 50,,,,,,,,,,,,,,,,,,
+34,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.0820007,0,0.07317073171,0.09230769231,0.08163265306,0.5333588877,2,,,,,,,,,,,,,,,,,,,
+35,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.2438354,0,0.06569343066,0.06923076923,0.06741573034,0.523912422,2,,,,,,,,,,,,,,,,,,,
+36,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.3905334,0,0.07092198582,0.07692307692,0.07380073801,0.5274883056,2,,,,,,,,,,,,,,,,,,,
+37,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.2569885,0,0.05732484076,0.06923076923,0.06271777003,0.5223336798,2,,,,,,,,,,,,,,,,,,,
+38,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.3522949,0,0.06428571429,0.06923076923,0.06666666667,0.5236402027,2,,,,,,,,,,,,,,,,,,,
+39,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.6101379,0,0.07228915663,0.09230769231,0.08108108108,0.53316658,2,,,,,,,,,,,,,,,,,,,
+40,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.086792,0,0.06578947368,0.07692307692,0.07092198582,0.5265826403,11,,,,,,,,,,,,,,,,,,,
+41,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.2046509,0,0.06547619048,0.08461538462,0.07382550336,0.5290897869,11,,,,,,,,,,,,,,,,,,,
+42,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.4916992,0,0.06707317073,0.08461538462,0.07482993197,0.5295302755,11,,,,,,,,,,,,,,,,,,,
+43,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,323.8703003,0,0.06923076923,0.06923076923,0.06923076923,0.5244588098,22,,,,,,,,,,,,,,,,,,,
+44,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.5523682,0,0.07751937984,0.07692307692,0.07722007722,0.5284368503,23,,,,,,,,,,,,,,,,,,,
+45,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.8739929,0,0.0650887574,0.08461538462,0.07357859532,0.5292164761,22,,,,,,,,,,,,,,,,,,,
+46,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,324.7105408,0,0.05494505495,0.07692307692,0.0641025641,0.5241086279,20,,,,,,,,,,,,,,,,,,,
+47,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,0.7492926121,0,0.04825462012,0.3615384615,0.08514492754,0.6035050676,94,Adding Skip connections,,,,,,,,,,,,,,,,,,
+48,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,1.64822948,0,0.04842105263,0.3538461538,0.08518518519,0.6020172817,92,Adding early stopping and validation loss,,,,,,,,,,,,,,,,,,
+49,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.7, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.7,0.01,110,256,16,0.0005,0.01,2,2.307808638,0,0.06310679612,0.2,0.09594095941,0.5680379418,52,Dropout rate 0.7,,,,,,,,,,,,,,,,,,
+50,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.3, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.3,0.01,110,256,16,0.0005,0.01,2,1.052068949,0,0.04592314902,0.3769230769,0.08187134503,0.6050428794,98,Dropout rate 0.3,,,,,,,,,,,,,,,,,,
+51,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,1.178288817,0,0.04356636272,0.3307692308,0.0769919427,0.5884251559,86,Dropout rate back to 0.5,,,,,,,,,,,,,,,,,,
+52,500,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,1.466564655,0,0.04523227384,0.2846153846,0.07805907173,0.5798005457,74,,,,,,,,,,,,,,,,,,,
+53,100,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,1.728621721,0,0.04438964242,0.2769230769,0.07651434644,0.576591736,72,,,,,,,,,,,,,,,,,,,
+54,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,1.818112135,0,0.04637336504,0.3,0.08032955716,0.5837590956,78,,,,,,,,,,,,,,,,,,,
+55,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,1.213059545,0.7,0.07594936709,0.04615384615,0.05741626794,0.586602131,12,threshold to 0.7,,,,,,,,,,,,,,,,,,
+56,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,2.087123156,0.5,0.07594936709,0.04615384615,0.05741626794,0.5555827703,12,threshold to 0.5,,,,,,,,,,,,,,,,,,
+57,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,1.664487243,0,0.04609929078,0.3,0.07991803279,0.5832367464,78,threshold to 0.0,,,,,,,,,,,,,,,,,,
+58,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (encoder3): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,1.375326037,0,0.02644444444,0.9153846154,0.05140388769,0.714858368,238,Increasing layers to 3,,,,,,,,,,,,,,,,,,
+59,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (encoder3): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,0.7400553823,0,0.02955787382,0.9153846154,0.0572666025,0.7073928015,3,,,,,,,,,,,,,,,,,,,
+60,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (encoder3): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,0.8277915716,0.5,0.06451612903,0.07692307692,0.0701754386,0.7157542879,17,,,,,,,,,,,,,,,,,,,
+61,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (encoder3): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,1.518767715,0.5,0.05882352941,0.05384615385,0.0562248996,0.6895900468,15,,,,,,,,,,,,,,,,,,,
+62,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (encoder3): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,0.7813163996,0.5,0.07462686567,0.07692307692,0.07575757576,0.7032789761,20,,,,,,,,,,,,,,,,,,,
+63,200,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 256)
+  (encoder2): GCNConv(256, 256)
+  (encoder3): GCNConv(256, 256)
+  (latent_layer): GCNConv(256, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 256)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,0.7709592581,0.5,0.05586592179,0.07692307692,0.06472491909,0.6995796518,17,,,,,,,,,,,,,,,,,,,
+64,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(50, 256, heads=4)
+  (encoder2): GATConv(1024, 256, heads=4)
+  (encoder3): GATConv(1024, 256, heads=4)
+  (latent_layer): GATConv(1024, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 256, heads=1)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,3588.273682,0.5,0.02727952167,0.5615384615,0.05203136137,0.5609212578,4,GAT Layers,,,,,,,,,,,,,,,,,,
+65,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(50, 256, heads=4)
+  (encoder2): GATConv(1024, 256, heads=4)
+  (encoder3): GATConv(1024, 256, heads=4)
+  (latent_layer): GATConv(1024, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 256, heads=1)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,0.00222788821,0.5,0.02148760331,1,0.04207119741,0.5166820426,152,GAT Layers,,,,,,,,,,,,,,,,,,
+66,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(50, 256, heads=4)
+  (encoder2): GATConv(1024, 256, heads=4)
+  (encoder3): GATConv(1024, 256, heads=4)
+  (latent_layer): GATConv(1024, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 256, heads=1)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,742.2537842,0.99,0.02362542955,0.4230769231,0.04475183076,0.5195621102,114,GAT Layers,,,,,,,,,,,,,,,,,,
+67,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(50, 256, heads=4)
+  (encoder2): GATConv(1024, 256, heads=4)
+  (encoder3): GATConv(1024, 256, heads=4)
+  (latent_layer): GATConv(1024, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 256, heads=1)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,254.1030731,0.7,0.0206185567,0.4461538462,0.03941556235,0.4903911123,106,,,,,,,,,,,,,,,,,,,
+68,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(50, 256, heads=4)
+  (encoder2): GATConv(1024, 256, heads=4)
+  (encoder3): GATConv(1024, 256, heads=4)
+  (latent_layer): GATConv(1024, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 256, heads=1)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,16.03207588,0.5,0.02089081592,0.4076923077,0.03974503187,0.448922817,106,,,,,,,,,,,,,,,,,,,
+69,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(50, 256, heads=4)
+  (encoder2): GATConv(1024, 256, heads=4)
+  (encoder3): GATConv(1024, 256, heads=4)
+  (latent_layer): GATConv(1024, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 256, heads=1)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,4.711306095,0,0.02666179693,0.5615384615,0.05090655509,0.5559693347,142,,,,,,,,,,,,,,,,,,,
+70,100,"GATLinkAutoencoder(
+  (encoder1): GATConv(50, 256, heads=4)
+  (encoder2): GATConv(1024, 256, heads=4)
+  (encoder3): GATConv(1024, 256, heads=4)
+  (latent_layer): GATConv(1024, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 256, heads=1)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,1296.907471,0,0.0216253924,0.4769230769,0.04137470804,0.5015527547,120,,,,,,,,,,,,,,,,,,,
+71,300,"GATLinkAutoencoder(
+  (encoder1): GATConv(50, 256, heads=4)
+  (encoder2): GATConv(1024, 256, heads=4)
+  (encoder3): GATConv(1024, 256, heads=4)
+  (latent_layer): GATConv(1024, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 256, heads=1)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,951.4449463,0,0.0246365105,0.4692307692,0.04681504221,0.5308043139,124,,,,,,,,,,,,,,,,,,,
+72,300,"GATLinkAutoencoder(
+  (encoder1): GATConv(50, 256, heads=4)
+  (encoder2): GATConv(1024, 256, heads=4)
+  (latent_layer): GATConv(1024, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 256, heads=1)
+  (decoder2): Linear(in_features=256, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,256,16,0.0005,0.01,2,7.967284679,0,0.02208544533,0.4692307692,0.04218533887,0.5065300156,120,3 to 2 layers,,,,,,,,,,,,,,,,,,
+73,300,"GATLinkAutoencoder(
+  (encoder1): GATConv(50, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.7108377218,0.5,0.02252881593,0.9923076923,0.04405737705,0.5774389293,152,1024 hidden,,,,,,,,,,,,,,,,,,
+74,300,"GATLinkAutoencoder(
+  (encoder1): GATConv(50, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.1524719149,0.5,0.02362658471,0.9461538462,0.04610194903,0.5983634356,16,top 10%,,,,,,,,,,,,,,,,,,
+75,300,"GATLinkAutoencoder(
+  (encoder1): GATConv(50, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.07182761282,0.5,0.02148760331,1,0.04207119741,0.5868636305,187,top 50%,,,,,,,,,,,,,,,,,,
+76,300,"GATLinkAutoencoder(
+  (encoder1): GATConv(50, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.8084135056,0.5,0.02356164384,0.6615384615,0.0455026455,0.5492502599,146,top 40%,,,,,,,,,,,,,,,,,,
+77,300,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(50, 1024)
+  (encoder2): GCNConv(1024, 1024)
+  (encoder3): GCNConv(1024, 1024)
+  (latent_layer): GCNConv(1024, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 1024)
+  (decoder2): Linear(in_features=1024, out_features=50, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.003717253217,0.5,0.02636655949,0.9461538462,0.05130344108,0.6820400208,166,back to GCN,,,,,,,,,,,,,,,,,,
+78,300,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(1000, 1024)
+  (encoder2): GCNConv(1024, 1024)
+  (encoder3): GCNConv(1024, 1024)
+  (latent_layer): GCNConv(1024, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 1024)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.005124780349,0.5,0.02481143311,0.9615384615,0.048374613,0.6729905146,150,Remove PCA,,,,,,,,,,,,,,,,,,
+79,300,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,4.717580318,0.5,0.02321758784,0.8692307692,0.04522713628,0.4961492983,144,Back to GAT without PCA80,300,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,7.34E-05,0.5,0.0212377634,0.9846153846,0.04157869092,0.3878950104,143,MI instead of PCC
+81,300,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.0001008553663,0.5,0.02148760331,1,0.04207119741,0.3734111876,145,Features from Expression data instaed of PCA,,,,,,,,,,,,,,,,,,
+82,300,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.0001367512741,0.5,0.02148760331,1,0.04207119741,0.489364605,28,Top 20%,,,,,,,,,,,,,,,,,,
+83,300,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.04343790188,0.5,0.02194411109,0.9846153846,0.04293141036,0.4707159563,29,PCC + MI,,,,,,,,,,,,,,,,,,
+85,300,"GCNLinkAutoencoder(
+  (encoder1): GCNConv(1000, 1024)
+  (encoder2): GCNConv(1024, 1024)
+  (encoder3): GCNConv(1024, 1024)
+  (latent_layer): GCNConv(1024, 16)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GCNConv(16, 1024)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.005137045402,0.5,0.02148760331,1,0.04207119741,0.5151815878,28,Switching model to GCN,,,,,,,,,,,,,,,,,,
+86,300,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,5.24E-05,0.5,0.02148760331,1,0.04207119741,0.5636207121,28,"Switching model back to GAT, coming down to MI",,,,,,,,,,,,,,,,,,
+87,500,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,6.12E-05,0.5,0.02148760331,1,0.04207119741,0.4506691788,28,,,,,,,,,,,,,,,,,,,
+88,500,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.0001087774144,0.5,0.02192907315,0.9846153846,0.04290263114,0.3053768191,149,Top 40,,,,,,,,,,,,,,,,,,
+89,500,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.0001234450028,0.5,0.02071668533,0.8538461538,0.04045189504,0.4590189709,3,Top 260,,,,,,,,,,,,,,,,,,
+90,500,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,8.81E-05,0.3,0.02148760331,1,0.04207119741,0.4921803534,4,,,,,,,,,,,,,,,,,,,
+91,500,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.0004208596365,0.3,0.02148760331,1,0.04207119741,0.5166359148,145,Change in Adjacency Matrix computation,,,,,,,,,,,,,,,,,,
+92,500,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,0.0001743088505,0.3,0.02148760331,1,0.04207119741,0.4964189189,145,Adj comp i j shuffle,,,,,,,,,,,,,,,,,,
+93,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,7.10E-05,0.3,0.02148760331,1,0.04207119741,0.4881724272,145,Capping outliers,,,,,,,,,,,,,,,,,,
+94,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,1.598238349,0.3,0.01609787508,0.3846153846,0.03090234858,0.4587886564,93,Scheduling Learning Rates,,,,,,,,,,,,,,,,,,
+95,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,2.60E-05,0.3,0.02148760331,1,0.04207119741,0.4201253898,145,Cosine Scheduling Learning Rates,,,,,,,,,,,,,,,,,,
+96,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,5.849337101,0.3,0.02137454785,0.5,0.04099653106,0.5404944127,118,Optuna,,,,,,,,,,,,,,,,,,
+97,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,9.51E-06,0.3,0.02148760331,1,0.04207119741,0.5283212058,145,Optuna,,,,,,,,,,,,,,,,,,
+98,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,2.52E-05,0.3,0.02148760331,1,0.04207119741,0.5029882406,145,Optuna,,,,,,,,,,,,,,,,,,
+99,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,1.61E-05,0.3,0.02148760331,1,0.04207119741,0.3778956601,145,Optuna,,,,,,,,,,,,,,,,,,
+100,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,5.235359669,0.3,0.02148760331,0.5,0.0412044374,0.4903927365,114,Optuna,,,,,,,,,,,,,,,,,,
+101,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,6.97E-06,0.3,0.02148760331,1,0.04207119741,0.4603657744,145,Optuna,,,,,,,,,,,,,,,,,,
+102,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,16,0.0005,0.01,2,1.16E-05,0.3,0.02148760331,1,0.04207119741,0.47841671,145,Optuna,,,,,,,,,,,,,,,,,,
+103,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 512, heads=4)
+  (encoder2): GATConv(2048, 512, heads=4)
+  (latent_layer): GATConv(2048, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 512, heads=1)
+  (decoder2): Linear(in_features=512, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,512,16,2.77E-05,6.47E-05,2,235.0587158,0.3980803534,0.02188827181,0.5153846154,0.04199310561,0.5289946076,118,Optuna,,,,,,,,,,,,,,,,,,
+104,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 512, heads=4)
+  (encoder2): GATConv(2048, 512, heads=4)
+  (latent_layer): GATConv(2048, 16, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(16, 512, heads=1)
+  (decoder2): Linear(in_features=512, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,512,16,6.86E-05,0.0001589195303,2,0.9270510077,0.4138016577,0.0206557377,0.4846153846,0.03962264151,0.5094347713,116,Optuna,,,,,,,,,,,,,,,,,,
+105,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.005531473569,4.94E-05,2,0.004579630215,0.4080431204,0.02148760331,1,0.04207119741,0.4927027027,145,Optuna,,,,,,,,,,,,,,,,,,
+106,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.0005,4.9359513263401676e-05,2,78.1973876953125,0.4,0.017827665896335426,0.4153846153846154,0.03418803418803419,0.4181314968814969,99,
+107,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.0005,4.9359513263401676e-05,2,0.0001052205843734555,0.4,0.021487603305785124,1.0,0.042071197411003236,0.5872177104989605,145,Dot product instead of cosine similarity
+108,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.0005,4.9359513263401676e-05,2,5.762063665315509e-05,0.4,0.021487603305785124,1.0,0.042071197411003236,0.42097128378378385,145,Back to Cosine
+109,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.0005,4.9359513263401676e-05,2,6.399884296115488e-05,0.4,0.021487603305785124,1.0,0.042071197411003236,0.48203417359667367,145,Change to RBF Kernel
+110,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.0005,4.9359513263401676e-05,2,4.263562004780397e-05,0.4,0.0,0.0,0.0,0.3616440358627858,145,Change to Dot
+111,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.0005,4.9359513263401676e-05,2,3.807358370977454e-05,0.4,0.021508934480476506,1.0,0.04211208292840946,0.4629755717255717,145,Cosine
+112,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.0005,4.9359513263401676e-05,2,4.400110265123658e-05,0.4,0.021859881741623365,0.9384615384615385,0.04272456662580984,0.5201656704781705,141,Removing norm penality
+113,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.0005,4.9359513263401676e-05,2,2.469158062012866e-05,0.4,0.021487603305785124,1.0,0.042071197411003236,0.6154703742203741,145,Need norm penalty
+114,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.0005,4.9359513263401676e-05,2,3.792193820117973e-05,0.4,0.021487603305785124,1.0,0.042071197411003236,0.5145549636174636,145,-
+115,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.0005,4.9359513263401676e-05,2,3.3912452636286616e-05,0.4,0.021487603305785124,1.0,0.042071197411003236,0.465379093035343,145,Viewing predicted features
+116,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.0005,4.9359513263401676e-05,2,3.9057911635609344e-05,0.4,0.021487603305785124,1.0,0.042071197411003236,0.5180171517671518,145,Viewing predicted features - more
+117,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.05,4.9359513263401676e-05,2,0.07540589570999146,0.4,0.022735957202904087,0.9153846153846154,0.04436987322893363,0.6228410862785864,145,Increasing LR
+118,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.015,4.9359513263401676e-05,2,0.041850168257951736,0.4,0.021487603305785124,1.0,0.042071197411003236,0.4285206600831601,145,Decreasing LR
+118,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.015,4.9359513263401676e-05,2,0.7430288791656494,0.4,0.021487603305785124,1.0,0.042071197411003236,0.4282728040540541,145,Decreasing LR
+118,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.015,4.9359513263401676e-05,2,0.2607816159725189,0.4,0.022080386406762118,0.9846153846153847,0.043192171418930315,0.3746140852390852,145,Decreasing LR
+118,200,"GATLinkAutoencoder(
+  (encoder1): GATConv(1000, 1024, heads=4)
+  (encoder2): GATConv(4096, 1024, heads=4)
+  (latent_layer): GATConv(4096, 8, heads=1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (decoder1): GATConv(8, 1024, heads=1)
+  (decoder2): Linear(in_features=1024, out_features=1000, bias=True)
+  (leaky_relu): LeakyReLU(negative_slope=0.01)
+)",0.5,0.01,110,1024,8,0.015,4.9359513263401676e-05,2,0.00858739111572504,0.4,0.021487603305785124,1.0,0.042071197411003236,0.4822001689189189,145,Decreasing LR
