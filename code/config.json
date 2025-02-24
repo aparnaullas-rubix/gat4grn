@@ -1,8 +1,8 @@
 {
-    "run_info_path": "/Users/rameshsubramani/Desktop/GAAE/files/run_info_vgae_optuna_100.csv",
-    "epoch_info_path": "/Users/rameshsubramani/Desktop/GAAE/files/epoch_info_vgae_optuna_100.csv",
-    "expr_file": "/Users/rameshsubramani/Desktop/GAAE/data/expr.csv",
-    "network_file": "/Users/rameshsubramani/Desktop/GAAE/data/net.csv",
+    "run_info_path": "/path/to/your/log/directory/run_info_vgae_optuna_100.csv",
+    "epoch_info_path": "/path/to/your/log/directory/epoch_info_vgae_optuna_100.csv",
+    "expr_file": "/path/to/your/expression/data/directory/expr.csv",
+    "network_file": "/path/to/your/ground/truth/directory/net.csv",
     "dataset": "GRN100",
     "num_neurons": 256,
     "embedding_size": 16,
