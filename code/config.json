@@ -1,0 +1,15 @@
+{
+    "run_info_path": "/Users/rameshsubramani/Desktop/GAAE/files/run_info_vgae_optuna_100.csv",
+    "epoch_info_path": "/Users/rameshsubramani/Desktop/GAAE/files/epoch_info_vgae_optuna_100.csv",
+    "expr_file": "/Users/rameshsubramani/Desktop/GAAE/data/expr.csv",
+    "network_file": "/Users/rameshsubramani/Desktop/GAAE/data/net.csv",
+    "dataset": "GRN100",
+    "num_neurons": 256,
+    "embedding_size": 16,
+    "num_heads": 8,
+    "learning_rate": 0.0005,
+    "num_epochs": 600,
+    "threshold": 0.7,
+    "noise_factor": 0.0,
+    "tune_hyperparameters": false
+}
